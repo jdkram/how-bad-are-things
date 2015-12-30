@@ -22,39 +22,39 @@ I've replicated the script (including the same approximations, issues with exclu
 This is an example list of 30 people and their statuses, given the set of stats about the US population [listed on the original post](http://slatestarcodex.com/2015/12/24/how-bad-are-things/).
 
 > James has chronic pain, is on probation.
-John was physically abused as a child.
-Robert is OK.
-Michael has chronic pain, is on food stamps.
-Mary has dementia.
-William is OK.
-David is OK.
-Richard is OK.
-Charles is OK.
-Joseph was sexually abused as a child, is an alcoholic.
-Thomas is wheelchair-bound, is unemployed.
-Patricia is OK.
-Christopher is on food stamps, was physically abused as a child.
-Linda is unemployed, has been raped, has chronic pain.
-Barbara is on food stamps, has chronic pain, was sexually abused as a child.
-Daniel was physically abused as a child.
-Paul has dementia.
-Mark is OK.
-Elizabeth is on disability living allowance, has chronic pain, was physically abused as a child.
-Donald was physically abused as a child, has chronic pain.
-Jennifer was physically abused as a child.
-George has schizophrenia, was sexually abused as a child.
-Maria was physically abused as a child, was sexually abused as a child.
-Kenneth is OK.
-Susan is in prison.
-Steven is OK.
-Edward was physically abused as a child.
-Margaret was physically abused as a child.
-Brian is OK.
-Ronald is clinically depressed, was physically abused as a child.
+> John was physically abused as a child.
+> Robert is OK.
+> Michael has chronic pain, is on food stamps.
+> Mary has dementia.
+> William is OK.
+> David is OK.
+> Richard is OK.
+> Charles is OK.
+> Joseph was sexually abused as a child, is an alcoholic.
+> Thomas is wheelchair-bound, is unemployed.
+> Patricia is OK.
+> Christopher is on food stamps, was physically abused as a child.
+> Linda is unemployed, has been raped, has chronic pain.
+> Barbara is on food stamps, has chronic pain, was sexually abused as a child.
+> Daniel was physically abused as a child.
+> Paul has dementia.
+> Mark is OK.
+> Elizabeth is on disability living allowance, has chronic pain, was physically abused as a child.
+> Donald was physically abused as a child, has chronic pain.
+> Jennifer was physically abused as a child.
+> George has schizophrenia, was sexually abused as a child.
+> Maria was physically abused as a child, was sexually abused as a child.
+> Kenneth is OK.
+> Susan is in prison.
+> Steven is OK.
+> Edward was physically abused as a child.
+> Margaret was physically abused as a child.
+> Brian is OK.
+> Ronald is clinically depressed, was physically abused as a child.
 
 Like the original author, I was stunned at number of people with a notable “bad thing” in their life. Obviously, not all of the attributes are inherently bad, but are probably better thought of as “states you probably wouldn't wish upon someone”.
 
-I've put the original Python file on GitHub alongside my implementation, in case anyone would like a peek at the code behind it. There are obvious problems with the method:
+I've put the original Python file [on GitHub](https://github.com/jdkram/how-bad-are-things) alongside my implementation, in case anyone would like a peek at the code behind it. There are obvious problems with the method:
 
 - it doesn't factor in co-morbidity (I'm guessing this list gets a lot more depressing when five people get every last malady)
 - the “exclusive” maladies aren't necessarily all exclusive
